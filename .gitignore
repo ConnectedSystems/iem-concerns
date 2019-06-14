@@ -56,3 +56,15 @@ docs/_build/
 
 # PyBuilder
 target/
+
+notebooks/config\.yml
+
+notebooks/tmp/
+
+notebooks/data/
+
+notebooks/\.ipynb_checkpoints/
+
+config/
+
+tmp/
