@@ -3,16 +3,18 @@ from setuptools import setup
 
 if __name__ == "__main__":
     setup(
-        name='Biblio',
-        version='0.1.1',
-        description='Repository holding analysis process used to collect data and figures for a paper on \
-                     software best practices in Integrated Environmental Modeling',
+        name='iem-concerns',
+        version='0.1',
+        description='Development of IEM concerns',
         long_description=open('README.md').read(),
         url='',
         author='Takuya Iwanaga',
         author_email='iwanaga.takuya@anu.edu.au',
         license='(c) 2018 Takuya Iwanaga',
         dependency_links=[
-            'pip install git+https://github.com/ConnectedSystems/wosis.git@master'
+            'pip install git+https://github.com/ConnectedSystems/metaknowledge.git@add-collections',
+            'pip install git+https://github.com/titipata/wos_parser.git@master',
+            'pip install git+https://github.com/ConnectedSystems/restful_wos.git@master',
+            'pip install git+https://github.com/ConnectedSystems/wosis.git@master',
         ],
     )
